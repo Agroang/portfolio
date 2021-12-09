@@ -11,6 +11,8 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "components/container";
+@import "components/cards";
 
 body {
   background-image: image_url('white_background.jpg');
