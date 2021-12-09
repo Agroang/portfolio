@@ -7,5 +7,20 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-javascript-plain
-- name: Other product
-  image: other_product.png
+- name: Plow
+  description: Ski renting marketplace (AirBnB style)
+  image: plow_app.png
+  url: http://plow-wintersports.herokuapp.com/
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+- name: Games/Characters/Skills
+  description: Solo project made to practice Ruby on Rails
+  image: game_app.png
+  url: http://game-char-skill.herokuapp.com/
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original

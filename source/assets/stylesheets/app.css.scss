@@ -11,3 +11,8 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  background-image: image_url('white_background.jpg');
+  background-size: cover;
+}
