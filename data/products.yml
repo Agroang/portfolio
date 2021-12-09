@@ -1,4 +1,11 @@
-- name: Some product
-  image: some_product.png
+- name: Nouyuu(農友)
+  description: Garden management web app (mobile first view style)
+  image: nouyuu_app.png
+  url: https://www.nouyuu.com
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
 - name: Other product
   image: other_product.png
