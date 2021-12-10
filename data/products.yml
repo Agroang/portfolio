@@ -1,6 +1,6 @@
-- name: Nouyuu(農友)
+- name: Nouyuu
   description: Garden management web app (mobile first view style)
-  image: nouyuu_app.png
+  image: nouyuu_full_app.png
   url: https://www.nouyuu.com
   tags:
     - devicon-rails-plain-wordmark

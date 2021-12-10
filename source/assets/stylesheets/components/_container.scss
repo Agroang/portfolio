@@ -34,3 +34,19 @@
 .img-tag-container {
   display: flex;
 }
+
+.tags-link-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0px;
+  border: 1px solid red;
+  .fas {
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    top: -80px;
+    right: -3px;
+  }
+}

@@ -8,9 +8,7 @@
       <div class="card-each">
         <h5><%= product.name %></h5>
         <p><%= product.description %></p>
-        <div class="img-tag-container">
-          <img src="<%= image_path(product.image) %>" alt="app picture" class="product-img">
-          <div class="d-flex justify-content-between align-items-center mt-1">
+          <div class="tags-link-container">
             <div class="card-tag">
               <% product.tags.each do |tag| %>
                 <span><i class="<%= tag %>"></i></span>
@@ -26,6 +24,8 @@
               <% end %>
            <% end %>
           </div>
+        <div class="img-tag-container">
+          <img src="<%= image_path(product.image) %>" alt="app picture" class="product-img">
         </div>
       </div>
     </div>
