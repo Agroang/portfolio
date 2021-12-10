@@ -2,28 +2,30 @@
 
 <h3>Projects</h3>
 
-<div class="cards" style="padding-top: 4px;">
+<div class="allcards-container">
   <% data.products.each do |product| %>
     <div>
-      <div class="card-description">
+      <div class="card-each">
         <h5><%= product.name %></h5>
         <p><%= product.description %></p>
-        <img src="<%= image_path(product.image) %>" alt="app picture" class="product-img">
-        <div class="d-flex justify-content-between align-items-center mt-1">
-          <div class="card-tags">
-            <% product.tags.each do |tag| %>
-              <span><i class="<%= tag %>"></i></span>
-            <% end %>
+        <div class="img-tag-container">
+          <img src="<%= image_path(product.image) %>" alt="app picture" class="product-img">
+          <div class="d-flex justify-content-between align-items-center mt-1">
+            <div class="card-tag">
+              <% product.tags.each do |tag| %>
+                <span><i class="<%= tag %>"></i></span>
+              <% end %>
+            </div>
+            <% if product.url %>
+              <% link_to product.url, class: 'external-link', target: '_blank' do %>
+                <i class="fas fa-external-link-alt"></i>
+              <% end %>
+            <% else %>
+              <% link_to product.url, class: 'external-link offline', target: '_blank' do %>
+                offline
+              <% end %>
+           <% end %>
           </div>
-          <% if product.url %>
-            <% link_to product.url, class: 'external-link', target: '_blank' do %>
-              <i class="fas fa-external-link-alt"></i>
-            <% end %>
-          <% else %>
-            <% link_to product.url, class: 'external-link offline', target: '_blank' do %>
-              offline
-            <% end %>
-          <% end %>
         </div>
       </div>
     </div>
