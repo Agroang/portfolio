@@ -1,13 +1,30 @@
 .index-title-container {
   border: 1px solid blue;
+  h1 {
+    font-family: 'Luckiest Guy', 'cursive' !important;
+    text-align: center;
+    margin: 32px 0px;
+  }
+  h2 {
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+  }
 }
 
 .projects-container {
   border: 1px solid red;
+  h3 {
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+  }
 }
 
 .typed-container {
-  border: 1px solid red;
+  font-family: 'Press Start 2P', 'cursive' !important;
+  margin: 32px;
+  padding: 8px;
+  background-color: rgba(204, 209, 209, 0.2);
+  border-radius: 8px;
 }
 
 .allcards-container {

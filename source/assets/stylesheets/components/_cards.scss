@@ -4,6 +4,10 @@
 
 .card-each {
   border: 1px solid blue;
+  margin: 32px 0px;
+  h5 {
+    margin-top: 16px;
+  }
 }
 
 .card-tag {
