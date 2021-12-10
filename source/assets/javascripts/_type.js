@@ -1,14 +1,18 @@
 // typed.js plugin stuff
-// import Typed from 'typed.js';
+// documentation: https://github.com/mattboldt/typed.js/
+import Typed from 'typed.js';
 
-// const options = {
-//   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-//   typeSpeed: 40
-// };
+const typed = new Typed('#test', {
+  strings: [
+    'Welcome to my portfolio!',
+    'I have some cool projects here...',
+    'Feel free to look around!'],
+  smartBackspace: true,
+  typeSpeed: 50,
+  startDelay: 50,
+  loop: true,
+  loopCount: Infinity,
+});
 
-// const typed = new Typed('.element', options);
-
-// const targetDiv = document.getElementById('test');
-
-// // typed.js plugin stuff
-// export { options, typed, targetDiv };
+export { typed };
+// typed.js plugin stuff
