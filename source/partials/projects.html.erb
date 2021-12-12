@@ -25,7 +25,9 @@
            <% end %>
           </div>
         <div class="img-tag-container">
-          <img src="<%= image_path(product.image) %>" alt="app picture" class="product-img">
+        <% link_to product.url, target: '_blank' do %>
+            <img src="<%= image_path(product.image) %>" alt="app picture" class="product-img">
+        <% end %>
         </div>
       </div>
     </div>
