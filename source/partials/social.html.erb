@@ -2,8 +2,12 @@
   <h3>You can find me here!</h3>
   <div class="social-links-container">
     <%# spam con imagenes de differents social media %>
-    <i class="fab fa-linkedin"></i>
-    <i class="fab fa-github-square"></i>
+    <% link_to 'https://www.linkedin.com/in/agroang/', target: '_blank' do %>
+      <i class="fab fa-linkedin"></i>
+    <% end %>
+    <% link_to 'https://github.com/Agroang', target: '_blank' do %>
+      <i class="fab fa-github-square"></i>
+    <% end %>
     <%# add the external links %>
   </div>
 </div>
