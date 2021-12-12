@@ -1,5 +1,5 @@
 - name: Nouyuu
-  description: Garden management web app (mobile first view style)
+  description: Garden management web app (PWA, mobile first view style)
   image: nouyuu_full_app.png
   url: https://www.nouyuu.com
   tags:

@@ -7,11 +7,12 @@
 }
 
 .card-each {
-  border: 1px solid blue;
+  // border: 1px solid blue;
   margin: 32px 0px;
   background-color: rgba(204, 209, 209, 0.5);
   border-radius: 8px;
-  padding: 0px 16px;
+  padding: 3px 16px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.18);
   h5 {
     margin-top: 16px;
     font-family: 'Francois One', sans-serif;
@@ -25,6 +26,11 @@
 }
 
 .card-tag {
-  border: 1px solid green;
+  // border: 1px solid green;
   font-size: 50px;
+  color: $dark-gray !important;
+  i:hover {
+    color: $almost-black;
+    transition: 1s;
+  }
 }
