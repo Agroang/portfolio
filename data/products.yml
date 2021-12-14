@@ -27,3 +27,13 @@
     - devicon-postgresql-plain-wordmark
     - devicon-heroku-original
     - devicon-github-original
+- name: React Business Card
+  description: First React only static page as virtual business card.
+  image: react_business_card.png
+  url: https://matiasau-business-card.netlify.app/
+  tags:
+    - devicon-html5-plain
+    - devicon-css3-plain
+    - devicon-react-original
+    - devicon-javascript-plain
+    - devicon-github-original
